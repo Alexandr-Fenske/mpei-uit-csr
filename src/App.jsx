@@ -1,5 +1,17 @@
+import { createBrowserRouter, RouterProvider } from "react-router"
+
 function App() {
-  return <>wekw</>
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <div>1</div>,
+    },
+    {
+      path: "/ads",
+      element: <div>2</div>,
+    }
+  ])
+  return <RouterProvider router={router} />
 }
 
 export default App
