@@ -1,0 +1,25 @@
+.footer {
+  padding: 5px;
+  background: rgb(39, 39, 39);
+  color: #fff;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.map {
+  color: rgb(158, 158, 158);
+}
+
+.title {
+  color: rgb(158, 158, 158);
+}

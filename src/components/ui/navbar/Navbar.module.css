@@ -1,0 +1,106 @@
+.header {
+  padding: 10px;
+  background: rgb(245, 245, 245);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacts {
+  display: flex;
+  gap: 10px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  color: rgb(66, 165, 245);
+}
+
+.phone::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/call.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  color: rgb(66, 165, 245);
+}
+
+.mail::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/mail.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+
+.params {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search {
+  width: 25px;
+  height: 25px;
+  background-image: url("./search.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contrast {
+  width: 22px;
+  height: 22px;
+  background-image: url("./contrast.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.links {
+  padding: 15px;
+  background: rgb(0, 103, 177);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link {
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
