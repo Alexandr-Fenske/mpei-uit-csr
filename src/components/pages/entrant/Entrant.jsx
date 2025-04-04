@@ -1,5 +1,30 @@
-const Entrant = () => {
-  return <>Entrant</>;
-};
+import cls from "./Entrant.module.css"
 
-export default Entrant;
+const Entrant = () => {
+  return (
+    <div className={cls.entrant}>
+      <div className={cls.container}>
+        <div className={cls.title}>Поступление</div>
+        <p>
+          Современные информационные технологии - диалог человека с компьютером,
+          итогом которого становится облегчение жизни человека, освобождение его
+          от рутины.
+        </p>
+        <p>
+          Кафедра управления и интеллектуальных технологий занимается
+          организацией и дальнейшей рационализацией работы различных систем,
+          выполняемой с применением передовых вычислительных технологий.
+        </p>
+        <div>table</div>
+        <strong>Остались вопросы?</strong>
+        <div>
+          <a href="">
+            Задайте их сотрудникам кафедры, и они охотно Вам ответят.
+          </a>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Entrant

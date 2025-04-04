@@ -30,40 +30,55 @@ const Navbar = () => {
           </div>
           <nav className={cls.nav}>
             <ul className={cls.links}>
-              <li className={cls.link}>
-                <NavLink to="/" end>
-                  Главная
+              <li>
+                <NavLink className={cls.link} to="/news">
+                  Новости
                 </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/news">Новости</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/ads">
+                  Объявления
+                </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/ads">Объявления</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/department">
+                  О кафедре
+                </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/department">Кафедра</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/entrant">
+                  Поступление
+                </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/entrant">Абитуриенту</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/study">
+                  Обучение
+                </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/study">Обучение</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/science">
+                  Наука
+                </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/science">Наука</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/POU">
+                  Платные обр.услуги
+                </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/POU">Платные обр.услуги</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/photo">
+                  Фотогалерея
+                </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/photo">Фотогалерея</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/references">
+                  Ссылки
+                </NavLink>
               </li>
-              <li className={cls.link}>
-                <NavLink to="/references">Справки</NavLink>
-              </li>
-              <li className={cls.link}>
-                <NavLink to="/contacts">Контакты</NavLink>
+              <li>
+                <NavLink className={cls.link} to="/contacts">
+                  Контакты
+                </NavLink>
               </li>
             </ul>
           </nav>

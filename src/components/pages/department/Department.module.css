@@ -1,0 +1,23 @@
+.department {
+    padding-bottom: 20px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.title {
+  padding-top: 30px;
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+    text-align: justify;  /* Выравнивание текста по ширине */
+    word-spacing: 3px;    /* Расширение расстояния между словами */
+    line-height: 1.6;     /* Увеличенный межстрочный интервал для читаемости */
+    padding: 10px 0;      /* Отступы сверху и снизу */
+}

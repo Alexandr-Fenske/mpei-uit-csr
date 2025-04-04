@@ -30,11 +30,36 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 900;
+  color: #42a5f5;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;  /* Ширина вертикального скроллбара */
+  height: 5px;  /* Высота горизонтального скроллбара */
+}
+
+/* Ползунок (бегунок) */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 103, 177); 
+  border-radius: 5px;
+}
+
+/* Фон скроллбара с отступами */
+::-webkit-scrollbar-track {
+  background: lightgray;
+  border-radius: 5px;
+  margin: 10px 2px; /* Отступы сверху и снизу */
 }
